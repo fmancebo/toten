@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Totem | Posto de Saúde</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    
+  </head>
+
+  <body>
+    <main>
+      <header class="cont-title">
+        <div class="title-wrapper">
+          <h1>Posto de Saúde</h1>
+          <h3>Escolha o tipo de de atendimento e retire a sua senha</h3>
+        </div>
+      </header>
+
+      <article class="cont-aten">
+        <div class="voltar">
+          <button id="btn-voltar">Voltar</button>
+        </div>
+        <div class="div-btns">
+          <div class="cont-btn">
+            <div class="btn">
+              <button id="btn-especialidades">Especialidades</button>
+            </div>
+          </div>
+
+          <div class="cont-btn">
+            <div class="btn">
+              <button id="btn-atendimentos">Atendimentos</button>
+            </div>
+          </div>
+          <section class="cont-espec" id="tela-especialidades">
+            <div class="btn-espec">
+              <button data-especialidade="Pediatria">Pediatria</button>
+            </div>
+            <div class="btn-espec">
+              <button data-especialidade="Ortopedia">Ortopedia</button>
+            </div>
+            <div class="btn-espec">
+              <button data-especialidade="Clinica Geral">Clinica Geral</button>
+            </div>
+            <div class="btn-espec">
+              <button data-especialidade="Ginecologia">Ginecologia</button>
+            </div>
+            <div class="btn-espec">
+              <button data-especialidade="Psiquiatria">Psiquiatria</button>
+            </div>
+            <div class="btn-espec">
+              <button data-especialidade="Odontologia">Odontologia</button>
+            </div>
+          </section>
+
+          <section class="cont-atend" id="tela-atendimento">
+            <div class="btn-atend">
+              <button data-atendimento="Farmácia">Farmácia</button>
+            </div>
+            <div class="btn-atend">
+              <button data-atendimento="Regulação">Regulação</button>
+            </div>
+            <div class="btn-atend">
+              <button data-atendimento="Assistência Social">Assistência Social</button>
+            </div>
+            <div class="btn-atend">
+              <button data-atendimento="Insumos e Vacinas">Insumos e Vacinas</button>
+            </div>
+          </section>
+
+          <section class="cont-tipo" id="tela-tipoAtend">
+            <div class="btn-tipo">
+              <button data-prioridade="Normal">Atend. Normal</button>
+            </div>
+            <div class="btn-tipo">
+              <button data-prioridade="Prioritário">Atend. Prioritário</button>
+            </div>
+          </section>
+
+          <section class="confirm-atend" id="tela-confirm">
+            <div class="wrapper-confir">
+              <div class="cont-msg">
+                <h4>
+                  Confirmar atendimento <br><span>...</span><br> à <br><span>...</span> ?
+                </h4>
+              </div>
+              <div class="cont-btns">
+                <div class="btn-confirm" id="id-confirm">
+                  <button id="nao-confirm">Voltar</button>
+                </div>
+                <div class="btn-confirm">
+                  <button id="botao-confirm">Confirmar</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="cont-senha" id="tela-senha">
+            <div class="wrapper-senha">
+              <div class="senha-msg">
+                <h4>
+                  Atendimento <span>...</span><br />
+                  à <br><span>...</span><br />
+                  número<br> <span>...</span>
+                </h4>
+              </div>
+              <div class="senha-btn">
+                <div class=btn-confirm>
+                  <button id="btn-NovoAtend">Novo atendimento</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <footer>
+        <div class="div-footer">
+          <div class="wrapper-footer">
+            <h4>Totem Medico</h4>
+            <h4>Criado por Felipe Mancebo ©️</h4>
+            <h5>2024</h5>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="script.js"></script>
+  <script src="toten.js"></script>
+</html>
