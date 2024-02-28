@@ -14,6 +14,8 @@ body {
     position:fixed;
     font-family: Arial, sans-serif;
     color: #333;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -23,7 +25,7 @@ header {
     padding: 20px;
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: 25vh;
 }
 .title-wrapper{
     display: flex;
@@ -43,7 +45,7 @@ header {
 article{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 60vh;
     background-color:#5d83ac; 
     display: flex;
     position: relative;
@@ -85,7 +87,7 @@ article{
 }
 
 footer{
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     background-color: #5d83ac ;
     display: flex;
@@ -93,7 +95,7 @@ footer{
 
 .div-footer{
     width: 100%;
-    height: 50%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -186,7 +188,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color:#f5f5dc;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .btn-tipo{
     justify-content: space-between;
@@ -281,7 +283,7 @@ footer{
 
 .btn-confirm button{
     height: 75px;
-    width: 290px;
+    width: calc(100px + 8vw);
     margin: 30px;
     font-size: 2rem;
     font-weight: bold;
@@ -333,7 +335,7 @@ footer{
     height: 70%;
     background-color: #f0f0f0;
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 4rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -356,14 +358,21 @@ footer{
 .flex{
     display: flex;
 }
+#btn-NovoAtend{
+    width: calc(200px + 10vw);
+}
+
 
 @media screen and (orientation: portrait) {
+    article{
+        height: auto;
+    }
     .div-btns {
         height: 70vh;
         display: flex;
     }
     .div-btns{
-        height: 70vh;
+        height: 60vh;
         flex-direction: column;
     }
     .cont-btn {
@@ -371,21 +380,24 @@ footer{
         height: 48%;
         width: 100%;
     }
+    .cont-tipo {
+        height: 60vh;
+    }
     .btn-espec {
         justify-content: space-between;
         display: block;
-        height: 50px;
+        height:calc(20px + 8vw);
         width: 100%;
         border-radius: 10px 5px;
-        margin: 15px;
+        margin: 10px;
     }
     .btn-atend {
         justify-content: space-between;
         display: block;
-        height: 50px;
+        height:calc(30px + 15vw);
         width: 100%;
         border-radius: 10px 5px;
-        margin: 15px;
+        margin: 10px;
     }
     .btn-atend button {
         height: 100%;
@@ -436,18 +448,39 @@ footer{
     #btn-NovoAtend{
         width: 180px;
     }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
     .title-wrapper h3{
         display: none;
     }
-    footer{
-        height: 20vh;
-    }
-    .div-footer {
-        align-items: start;
-        margin-top: calc(1px + 1vh);
-        font-size: calc(5px + 1vh);
-    }
+    
     .wrapper-confir {
         height: 91%;
+    }
+    #btn-NovoAtend{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px) and ( max-height: 800px){
+    footer{
+        display: none;
+    }
+    .div-btns {
+        height: 75vh;
+    }
+    .cont-tipo {
+        height: 75vh;
+    }
+    .title-wrapper h1 {
+        margin-bottom: 0px;
+        font-size: 3rem;
+    }
+    .btn button {
+        font-size: 2rem;
     }
 }

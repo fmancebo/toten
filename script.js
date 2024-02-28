@@ -1,11 +1,11 @@
 
-const botoesTiposEsp = document.querySelectorAll('.cont-espec .btn-espec button')
-const botoesTipoAtend = document.querySelectorAll('.cont-atend .btn-atend button')
-
-
 const botaoEspec = document.querySelector('#btn-especialidades')
 const botaoAtend = document.querySelector('#btn-atendimentos')
+
+const botoesTiposEsp = document.querySelectorAll('.cont-espec .btn-espec button')
+const botoesTipoAtend = document.querySelectorAll('.cont-atend .btn-atend button')
 const botaoPriNorm = document.querySelectorAll('.cont-tipo .btn-tipo button')
+
 const botaoConfirm = document.querySelector('#botao-confirm')
 const botaoNovoAtend = document.querySelector('#btn-NovoAtend')
 const botaoVoltar = document.querySelector('.voltar')
@@ -114,6 +114,9 @@ botaoNovoAtend.addEventListener('click', voltar)
 naoConfirm.addEventListener('click', voltar)
 
 function voltar(){
+    especialidade = null;
+    atendimento = null;
+
     telaInicial.forEach(telaInicial => {
         telaInicial.classList.remove('hidden');
     });
