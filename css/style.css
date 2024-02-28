@@ -341,23 +341,6 @@ footer{
     border-top-right-radius: 10px;
 }
 
-
-.btn-confirm button{
-    height: 75px;
-    width: 300px;
-    margin: 30px;
-    font-size: 2rem;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    background-color: #007BFF;
-    color: #FFF;
-}
-.btn-confirm button:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-    background-color: #0056b3;
-}
 .senha-btn{
     align-items: center;
     justify-content: center;
