@@ -10,7 +10,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #f0f0f0;
     width: 100%;
-    height: 100vh;
     position:fixed;
     font-family: Arial, sans-serif;
     color: #333;
@@ -64,8 +63,8 @@ article{
     border-radius: 10px;
 }
 .btn{
-    height: 95%;
-    width: 420px;
+    height: 50%;
+    width: 95%;
     border-radius: 10px;
 }
 .btn button{
@@ -218,8 +217,8 @@ footer{
 .voltar {
     display: none;
     position: absolute; 
-    top: 5px;
-    left: 5px;
+    top: 9px;
+    left: 2px;
     width: 100px;
     height: 50px;
 }
@@ -332,7 +331,7 @@ footer{
     width: 100%;
     height: 70%;
     background-color: #f0f0f0;
-    font-size: 1.5rem;;
+    font-size: 1.8rem;;
     line-height: 3rem;
     text-align: center;
     justify-content: center;
@@ -362,16 +361,35 @@ footer{
 
 
 @media screen and (max-width: 900px) {
+    /* #botoes-iniciais{
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color:#5d83ac;
+    } */
+    body {
+        background-color: #5d83ac;
+    }
     article{
         height: auto;
     }
-    .div-btns {
-        height: 70vh;
-        display: flex;
-    }
     .div-btns{
-        height: 60vh;
+        height: 50vh;
         flex-direction: column;
+        margin-top: 10px;
+    }.btn {
+        height: 98%;
+        width: 98%;
+        border-radius: 10px;
+    }
+    .voltar{
+        height: 3vh;
+    
+    }
+    .voltar button{
+        height: 4vh;
     }
     .cont-btn {
         flex-direction: column;
@@ -384,18 +402,19 @@ footer{
     .btn-espec {
         justify-content: space-between;
         display: block;
-        height:calc(20px + 8vw);
+        height:calc(15px + 8vw);
         width: 100%;
         border-radius: 10px 5px;
         margin: 10px;
     }
     .btn-atend {
-        justify-content: space-between;
-        display: block;
-        height:calc(30px + 15vw);
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        height:calc(20px + 15vw);
         width: 100%;
         border-radius: 10px 5px;
-        margin: 10px;
+        margin: 5px;
     }
     .btn-atend button {
         height: 100%;
@@ -412,6 +431,7 @@ footer{
     }
     .cont-atend{
         margin-top: 60px;
+        height: calc(60vh - 60px);
     }
     .btn-tipo {
         display: flex;
@@ -447,9 +467,13 @@ footer{
         width: 180px;
     }
     footer{
+        height: 20vh;
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+    .div-footer{
+        height: 50%;
     }
     .title-wrapper h3{
         display: none;

@@ -73,6 +73,7 @@ botaoPriNorm.forEach((botao) => {
 
         telaTipoAtd.classList.remove('flex');
         telaConfirm.classList.add('flex');
+        botaoVoltar.classList.remove('flex')
     });
 });
 
