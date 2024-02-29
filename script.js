@@ -122,6 +122,7 @@ function voltar(){
         telaInicial.classList.remove('hidden');
     });
     telaEspec.classList.remove('flex');
+    telaAtend.classList.remove('flex');
     telaTipoAtd.classList.remove('flex');
     telaConfirm.classList.remove('flex')
     telaSenha.classList.remove('flex')
