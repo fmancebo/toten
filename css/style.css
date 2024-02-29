@@ -397,7 +397,7 @@ footer{
     }
     .cont-btn {
         flex-direction: column;
-        height: 48%;
+        height: 45%;
         width: 100%;
     }
     .cont-tipo {
@@ -445,7 +445,7 @@ footer{
     .wrapper-confir {
         height: 80%;
         width: 100%;
-        margin-top: 60px;
+        margin-top: 0px;
     }
     .cont-msg {
         font-size: 1.5rem;
