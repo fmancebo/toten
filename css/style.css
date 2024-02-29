@@ -215,12 +215,14 @@ footer{
 
 /* VOLTAR */
 .voltar {
+    margin-top: 200px;
     display: none;
     position: absolute; 
     top: 9px;
     left: 2px;
     width: 100px;
     height: 50px;
+    z-index: 2;
 }
 .voltar button{
     height: 100%;
@@ -376,7 +378,7 @@ footer{
         height: auto;
     }
     .div-btns{
-        height: 50vh;
+        height: 60vh;
         flex-direction: column;
         margin-top: 10px;
     }.btn {
@@ -385,7 +387,9 @@ footer{
         border-radius: 10px;
     }
     .voltar{
-        height: 3vh;
+        height: 5vh;
+        position: inherit;
+        margin-top: 0;
     
     }
     .voltar button{
@@ -427,10 +431,10 @@ footer{
         font-size: 1.5rem;
     }
     .cont-espec{
-        margin-top: 60px;
+        /* margin-top: 60px; */
     }
     .cont-atend{
-        margin-top: 60px;
+        /* margin-top: 60px; */
         height: calc(60vh - 60px);
     }
     .btn-tipo {
@@ -473,7 +477,9 @@ footer{
         left: 0;
     }
     .div-footer{
-        height: 50%;
+        /* height: 50%; */
+        /* position: absolute;
+        bottom: 10px; */
     }
     .title-wrapper h3{
         display: none;
