@@ -381,8 +381,8 @@ footer{
     .div-btns{
         height: 57vh;
         flex-direction: column;
-        margin-top: 10px;
-    }.btn {
+    }
+    .btn {
         height: 98%;
         width: 98%;
         border-radius: 10px;
