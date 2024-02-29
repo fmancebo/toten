@@ -397,11 +397,11 @@ footer{
     }
     .cont-btn {
         flex-direction: column;
-        height: 45%;
+        height: 48%;
         width: 100%;
     }
     .cont-tipo {
-        height: 60vh;
+        height: 55vh;
     }
     .btn-espec {
         justify-content: space-between;
@@ -430,11 +430,7 @@ footer{
         width: 100%;
         font-size: 1.5rem;
     }
-    .cont-espec{
-        /* margin-top: 60px; */
-    }
     .cont-atend{
-        /* margin-top: 60px; */
         height: calc(60vh - 60px);
     }
     .btn-tipo {
