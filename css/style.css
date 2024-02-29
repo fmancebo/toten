@@ -24,6 +24,7 @@ header {
     text-align: center;
     width: 100%;
     height: 25vh;
+    position: relative;
 }
 .title-wrapper{
     display: flex;
@@ -215,10 +216,10 @@ footer{
 
 /* VOLTAR */
 .voltar {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: none;
     position: absolute; 
-    top: 13px;
+    bottom:-53px;
     left: 2px;
     width: 100px;
     height: 50px;
@@ -387,9 +388,8 @@ footer{
         border-radius: 10px;
     }
     .voltar{
-        height: 5vh;
-        position: inherit;
-        margin-top: 0;
+        height: 4vh;
+        bottom: 0px;
     
     }
     .voltar button{
@@ -471,11 +471,6 @@ footer{
         position: absolute;
         bottom: 0;
         left: 0;
-    }
-    .div-footer{
-        /* height: 50%; */
-        /* position: absolute;
-        bottom: 10px; */
     }
     .title-wrapper h3{
         display: none;
