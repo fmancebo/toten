@@ -535,6 +535,11 @@ footer {
         left: 0; */
     }
 
+    .title-wrapper{
+        margin: 0px;
+        flex-direction: inherit;
+    }
+
     .title-wrapper h3 {
         display: none;
     }
