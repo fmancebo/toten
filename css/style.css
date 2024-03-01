@@ -364,6 +364,7 @@ footer{
     
     body {
         background-color: #5d83ac;
+        height: 100vh;
     }
     article{
         height: auto;
@@ -494,7 +495,7 @@ footer{
         font-size: 2rem;
     }
 }
-@media (orientation: landscape) and (max-height: 700px) {
+@media (orientation: landscape) and (max-height: 700px) and (max-width: 1330px) {
    .title-wrapper h3{
     display: none;
    }
