@@ -3,14 +3,20 @@
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Georgia, serif;
 }
 
 body {
     background-color: #f0f0f0;
     width: 100%;
-    position:fixed;
+    position: fixed;
     font-family: Arial, sans-serif;
     color: #333;
     height: 100%;
@@ -26,50 +32,58 @@ header {
     height: 25vh;
     position: relative;
 }
-.title-wrapper{
+
+.title-wrapper {
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
     align-items: center;
     line-height: 4rem;
 }
-.title-wrapper h1{
+
+.title-wrapper h1 {
     font-size: 4rem;
-   
+
 }
-.title-wrapper h3{
+
+.title-wrapper h3 {
     font-size: 1.75rem;
 }
 
-article{
+article {
     display: flex;
     width: 100%;
     height: 60vh;
-    background-color:#5d83ac; 
+    background-color: #5d83ac;
     display: flex;
     position: relative;
 }
-.div-btns{
+
+.div-btns {
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: space-between;
 }
-.cont-btn{
-    display: flex;  /* flex */
+
+.cont-btn {
+    display: flex;
+    /* flex */
     justify-content: center;
     align-items: center;
     width: 49.5%;
     height: 100%;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     border-radius: 10px;
 }
-.btn{
+
+.btn {
     height: 50%;
     width: 95%;
     border-radius: 10px;
 }
-.btn button{
+
+.btn button {
     height: 100%;
     width: 100%;
     font-size: 3rem;
@@ -79,40 +93,43 @@ article{
     background-color: #007BFF;
     color: #FFF;
 }
-.btn button:hover{
+
+.btn button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
 
-footer{
+footer {
     height: 15vh;
     width: 100%;
-    background-color: #5d83ac ;
+    background-color: #5d83ac;
     display: flex;
 }
 
-.div-footer{
+.div-footer {
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
-    text-align: center; 
+    text-align: center;
 }
 
 /* ESPEC */
-.cont-espec{
+.cont-espec {
     border-radius: 10px;
-    display: none;   /*flex*/
+    display: none;
+    /*flex*/
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     flex-wrap: wrap;
 }
-.btn-espec{
+
+.btn-espec {
     justify-content: space-between;
     display: block;
     height: 75px;
@@ -120,7 +137,8 @@ footer{
     border-radius: 10px;
     margin: 25px;
 }
-.btn-espec button{
+
+.btn-espec button {
     height: 100%;
     width: 100%;
     font-size: calc(1rem + 2vw);
@@ -130,34 +148,39 @@ footer{
     background-color: #007BFF;
     color: #FFF;
 }
-.btn-espec button:hover{
+
+.btn-espec button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
+
 /* END ESPEC */
 
 /* ATEND */
-.cont-atend{
+.cont-atend {
     border-radius: 10px;
-    display: none;   /*flex*/
+    display: none;
+    /*flex*/
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     flex-wrap: wrap;
 }
-.btn-atend{
+
+.btn-atend {
     justify-content: space-between;
     display: flex;
     height: 75px;
     width: 33%;
     border-radius: 10px;
     margin: 25px;
-    
+
 }
-.btn-atend button{
+
+.btn-atend button {
     height: 100%;
     width: 100%;
     font-size: calc(1rem + 2vw);
@@ -168,34 +191,38 @@ footer{
     color: #FFF;
 }
 
-.btn-atend button:hover{
+.btn-atend button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
+
 /* END ATEND */
 
 /* TIPO */
-.cont-tipo{
+.cont-tipo {
     border-radius: 10px;
-    display: none;   /*flex*/
+    display: none;
+    /*flex*/
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     flex-direction: column;
 }
-.btn-tipo{
+
+.btn-tipo {
     justify-content: space-between;
     display: block;
     height: 75px;
     width: 30%;
     border-radius: 10px;
     margin: 25px;
-    
+
 }
-.btn-tipo button{
+
+.btn-tipo button {
     height: 100%;
     width: 100%;
     font-size: 2rem;
@@ -205,24 +232,27 @@ footer{
     background-color: #007BFF;
     color: #FFF;
 }
-.btn-tipo button:hover{
+
+.btn-tipo button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
+
 /* END TIPO */
 
 /* VOLTAR */
 .voltar {
     display: none;
-    position: absolute; 
-    bottom:-53px;
+    position: absolute;
+    bottom: -53px;
     left: 2px;
     width: 100px;
     height: 50px;
     z-index: 2;
 }
-.voltar button{
+
+.voltar button {
     height: 100%;
     width: 100%;
     font-size: 1.5rem;
@@ -232,36 +262,40 @@ footer{
     background-color: #007BFF;
     color: #FFF;
 }
-.voltar button:hover{
+
+.voltar button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
+
 /* END VOLTAR */
 
 
 /* CONFIRM ATEN */
-.confirm-atend{
+.confirm-atend {
     border-radius: 10px;
-    display: none;   /*flex*/
+    display: none;
+    /*flex*/
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     flex-wrap: wrap;
     border-radius: 10px;
-    
+
 }
 
-.wrapper-confir{
+.wrapper-confir {
     height: 90%;
     width: 50%;
     background-color: rgb(171, 207, 203);
     border-radius: 10px;
 
 }
-.cont-msg{
+
+.cont-msg {
     display: flex;
     padding: 15px;
     width: 100%;
@@ -274,11 +308,12 @@ footer{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.cont-msg h4{
+
+.cont-msg h4 {
     line-height: 3rem;
 }
 
-.btn-confirm button{
+.btn-confirm button {
     height: 75px;
     width: calc(100px + 8vw);
     margin: 10px;
@@ -289,12 +324,14 @@ footer{
     background-color: #007BFF;
     color: #FFF;
 }
-.btn-confirm button:hover{
+
+.btn-confirm button:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: #0056b3;
 }
-.cont-btns{
+
+.cont-btns {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -305,33 +342,36 @@ footer{
 /* end confirm-atend */
 
 /* SENHA */
-.cont-senha{
+.cont-senha {
     border-radius: 10px;
-    display: none;   /*flex*/
+    display: none;
+    /*flex*/
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color:#f5f5dc;
+    background-color: #f5f5dc;
     flex-wrap: wrap;
     border-radius: 10px;
-    
+
 }
 
-.wrapper-senha{
+.wrapper-senha {
     height: 90%;
     width: 50%;
     background-color: rgb(171, 207, 203);
     border-radius: 10px;
 
 }
-.senha-msg{
+
+.senha-msg {
     display: flex;
     padding: 15px;
     width: 100%;
     height: 70%;
     background-color: #f0f0f0;
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
+    ;
     line-height: 3rem;
     text-align: center;
     justify-content: center;
@@ -340,216 +380,261 @@ footer{
     border-top-right-radius: 10px;
 }
 
-.senha-btn{
+.senha-btn {
     align-items: center;
     justify-content: center;
     display: flex;
     width: 100%;
     height: 30%;
 }
+
 /* END SENHA */
 
-.hidden{
+.hidden {
     display: none;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-#btn-NovoAtend{
+
+#btn-NovoAtend {
     width: calc(200px + 10vw);
 }
 
 
-@media screen and (max-width: 900px){
-    
+@media screen and (max-width: 900px) {
+
     body {
         background-color: #5d83ac;
         height: 100vh;
     }
-    article{
+
+    article {
         height: auto;
     }
-    .div-btns{
+
+    .div-btns {
         /* aqui */
         height: 60vh;
         flex-direction: column;
     }
+
     .btn {
         height: 98%;
         width: 98%;
         border-radius: 10px;
     }
-    .voltar{
+
+    .voltar {
         height: 4vh;
         bottom: 0px;
-    
+
     }
-    .voltar button{
+
+    .voltar button {
         height: 4vh;
     }
+
     .cont-btn {
         flex-direction: column;
         height: 48%;
         width: 100%;
     }
+
     .cont-tipo {
         /* aqui */
         height: 60vh;
     }
+
     .btn-espec {
         justify-content: space-between;
         display: block;
-        height:calc(15px + 8vw);
+        height: calc(15px + 8vw);
         width: 100%;
         border-radius: 10px 5px;
         margin: 10px;
     }
+
     .btn-atend {
         flex-direction: column;
         justify-content: center;
         display: flex;
-        height:calc(20px + 15vw);
+        height: calc(20px + 15vw);
         width: 100%;
         border-radius: 10px 5px;
         margin: 5px;
     }
+
     .btn-atend button {
         height: 100%;
         width: 100%;
         font-size: 1.5rem;
     }
+
     .btn-espec button {
         height: 100%;
         width: 100%;
         font-size: 1.5rem;
     }
-    .cont-atend{
+
+    .cont-atend {
         height: 100%;
     }
+
     .btn-tipo {
         display: flex;
         height: calc(100px + 1vw);
         width: 100%;
     }
+
     .wrapper-confir {
         height: 80%;
         width: 100%;
         margin-top: 0px;
     }
+
     .cont-msg {
         font-size: 1.5rem;
     }
+
     .btn-confirm button {
         height: 75px;
         width: 150px;
         font-size: 1.75rem;
     }
+
     .wrapper-senha {
         height: 100%;
         width: 100%;
     }
+
     .senha-msg {
-       
+
         width: 100%;
         height: 70%;
         font-size: 2rem;
         line-height: 4rem;
     }
-    #btn-NovoAtend{
+
+    #btn-NovoAtend {
         width: 180px;
     }
-    footer{
+
+    footer {
         height: 15vh;
         /* position: absolute;
         bottom: 0;
         left: 0; */
     }
-    .title-wrapper h3{
+
+    .title-wrapper h3 {
         display: none;
     }
-    
+
     .wrapper-confir {
         height: 91%;
     }
-    #btn-NovoAtend{
+
+    #btn-NovoAtend {
         width: 300px;
     }
 
 }
 
-@media screen and (max-width: 500px) and ( max-height: 690px){
-    footer{
+@media screen and (max-width: 500px) and (max-height: 690px) {
+    footer {
         display: none;
     }
+
     .div-btns {
         height: 75vh;
     }
+
     .cont-tipo {
         height: 75vh;
     }
+
     .title-wrapper h1 {
         margin-bottom: 0px;
         font-size: 3.5rem;
     }
+
     .btn button {
         font-size: 2rem;
     }
 }
+
 @media (orientation: landscape) and (max-height: 400px) and (max-width: 1330px) {
-   .title-wrapper h3{
-    display: none;
-   }
-   .btn-espec {
-   width: 30%;
-   }
-   .btn-atend{
+    .title-wrapper h3 {
+        display: none;
+    }
+
+    .btn-espec {
+        width: 30%;
+    }
+
+    .btn-atend {
         width: 35%;
         height: 30%;
-   }
-   /* footer{
-    bottom: 10px;
-   } */
-   .voltar{
-    position:absolute;
-    left:2px;
-    bottom: -17px;
-   }
-   .voltar button{
-    height: 7vh;
-   }
-   .btn-confirm button {
-    height: 45px;
+    }
 
-   }
-   .cont-atend{
-    height: inherit;
-   }
-   .cont-btns{
-    justify-content: space-around;
-   }
-   .cont-msg h4 {
-    line-height: 2.3rem;
-}
-.wrapper-senha {
-    height: 100%;
-    margin-top: 0px;
-}
-.senha-msg{
-    line-height: 30px;
-    font-size: 2rem;
-}
-.btn-confirm button {
-    width: 250px;
-}
-.btn-espec {
-    width: 25%;
-    height: 25%;
-}
-.title-wrapper h1{
-    position: absolute;
-    top:10px;
-}
-.btn-tipo{
-    width: 50%;
-}
+    .voltar {
+        position: absolute;
+        left: 2px;
+        bottom: -17px;
+    }
+
+    .voltar button {
+        height: 7vh;
+    }
+
+    .btn-confirm button {
+        height: 45px;
+
+    }
+
+    .cont-atend {
+        height: inherit;
+    }
+
+    .cont-btns {
+        justify-content: space-around;
+    }
+
+    .cont-msg h4 {
+        line-height: 2.3rem;
+    }
+
+    .wrapper-senha {
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .senha-msg {
+        line-height: 30px;
+        font-size: 2rem;
+    }
+
+    .btn-confirm button {
+        width: 250px;
+    }
+
+    .btn-espec {
+        width: 25%;
+        height: 25%;
+    }
+
+    .title-wrapper h1 {
+        position: absolute;
+        top: 10px;
+    }
+
+    .btn-tipo {
+        width: 50%;
+    }
+
+    .div-footer {
+        font-size: 0.80rem;
+    }
 }
