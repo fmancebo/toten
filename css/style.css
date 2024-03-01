@@ -409,6 +409,9 @@ footer {
         background-color: #5d83ac;
         height: 100%;
     }
+    main{
+        display: block;
+    }
 
     article {
         height: auto;
