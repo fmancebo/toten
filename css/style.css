@@ -408,9 +408,12 @@ footer {
     body {
         background-color: #5d83ac;
         height: 100%;
+        position: relative;
     }
     main{
-        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
     article {
