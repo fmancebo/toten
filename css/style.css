@@ -494,11 +494,10 @@ footer {
     .wrapper-confir {
         height: 100%;
         width: 100%;
-        margin-top: 0px;
     }
 
     .cont-msg {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .btn-confirm button {
@@ -513,11 +512,10 @@ footer {
     }
 
     .senha-msg {
-
         width: 100%;
         height: 70%;
-        font-size: 2rem;
-        line-height: 4rem;
+        font-size: 1.7rem;
+        line-height: 3rem;
     }
 
     #btn-NovoAtend {
@@ -611,7 +609,9 @@ footer {
     .cont-atend {
         height: inherit;
     }
-
+    .cont-senha{
+        height: 100%;
+    }
     .cont-btns {
         justify-content: space-around;
     }
@@ -628,6 +628,7 @@ footer {
     .senha-msg {
         line-height: 30px;
         font-size: 1.5rem;
+        height: 70%;
     }
 
     .btn-confirm button {
