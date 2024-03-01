@@ -68,7 +68,6 @@ article {
 
 .cont-btn {
     display: flex;
-    /* flex */
     justify-content: center;
     align-items: center;
     width: 49.5%;
@@ -404,7 +403,11 @@ footer {
 
 
 @media screen and (max-width: 900px) {
-
+    header{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
     body {
         background-color: #5d83ac;
         height: 100%;
