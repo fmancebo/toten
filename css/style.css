@@ -495,7 +495,7 @@ footer{
         font-size: 2rem;
     }
 }
-@media (orientation: landscape) and (max-height: 700px) and (max-width: 1330px) {
+@media (max-height: 700px) and (max-width: 1330px) {
    .title-wrapper h3{
     display: none;
    }
