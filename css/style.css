@@ -31,7 +31,7 @@ header {
     flex-direction: column;
     margin: 20px 0px;
     align-items: center;
-    line-height: 5rem;
+    line-height: 4rem;
 }
 .title-wrapper h1{
     font-size: 4rem;
@@ -459,10 +459,10 @@ footer{
         width: 180px;
     }
     footer{
-        height: 10vh;
-        position: absolute;
+        height: 15vh;
+        /* position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; */
     }
     .title-wrapper h3{
         display: none;
@@ -506,9 +506,9 @@ footer{
         width: 35%;
         height: 30%;
    }
-   footer{
+   /* footer{
     bottom: 10px;
-   }
+   } */
    .voltar{
     position:absolute;
     left:2px;
